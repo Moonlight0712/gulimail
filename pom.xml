@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupId</groupId>
+    <groupId>com.jay.gulimail</groupId>
     <artifactId>gulimail</artifactId>
     <description>谷粒商城-聚合服务</description>
     <packaging>pom</packaging>
@@ -16,6 +16,9 @@
         <module>gulimail-order</module>
         <module>gulimail-product</module>
         <module>gulimail-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>gulimail-common</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

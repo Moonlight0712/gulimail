@@ -1,0 +1,140 @@
+2022-08-20 21:41:03,768 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-08-20 21:41:03,768 WARN Using naming.distro config to replace core.distro config
+
+2022-08-20 21:41:03,845 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-08-20 21:41:03,846 INFO listen for service meta change
+
+2022-08-20 21:41:03,851 INFO upgrade.state file is not exist
+
+2022-08-20 21:41:06,827 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-08-20 21:41:06,827 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-08-20 21:41:06,828 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-08-20 21:41:06,828 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-08-20 21:48:29,394 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-08-20 21:48:29,394 WARN Using naming.distro config to replace core.distro config
+
+2022-08-20 21:48:29,474 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-08-20 21:48:29,475 INFO listen for service meta change
+
+2022-08-20 21:48:32,486 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-08-20 21:48:32,486 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-08-20 21:48:32,486 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-08-20 21:48:32,486 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-08-20 21:50:23,519 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-08-20 21:50:23,519 WARN Using naming.distro config to replace core.distro config
+
+2022-08-20 21:50:23,596 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-08-20 21:50:23,596 INFO listen for service meta change
+
+2022-08-20 21:50:26,432 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-08-20 21:50:26,432 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-08-20 21:50:26,432 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-08-20 21:50:26,432 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-08-20 21:50:27,087 INFO Load instance extension handler []
+
+2022-08-20 22:18:15,630 INFO Client connection 1661005095298_127.0.0.1_51276 connect
+
+2022-08-20 22:19:47,868 INFO Client connection 1661005095298_127.0.0.1_51276 disconnect, remove instances and subscribers
+
+2022-08-20 22:20:05,147 INFO Client connection 1661005205079_127.0.0.1_51399 connect
+
+2022-08-20 22:20:08,318 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=0}, 1661005205079_127.0.0.1_51399
+
+2022-08-20 22:20:12,005 INFO Client connection 1661005211997_127.0.0.1_51413 connect
+
+2022-08-20 22:20:16,051 INFO Client connection 1661005211997_127.0.0.1_51413 disconnect, remove instances and subscribers
+
+2022-08-20 22:20:16,051 INFO Client connection 1661005205079_127.0.0.1_51399 disconnect, remove instances and subscribers
+
+2022-08-20 22:21:57,110 WARN namespace : public, [DEFAULT_GROUP@@gulimail-product] services are automatically cleaned
+
+2022-08-20 22:24:12,152 INFO Client connection 1661005452080_127.0.0.1_51623 connect
+
+2022-08-20 22:24:15,307 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=0}, 1661005452080_127.0.0.1_51623
+
+2022-08-20 22:24:18,891 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=1}, 1661005452080_127.0.0.1_51623
+
+2022-08-20 22:24:18,985 INFO Client connection 1661005458978_127.0.0.1_51636 connect
+
+2022-08-20 22:24:23,044 INFO Client connection 1661005452080_127.0.0.1_51623 disconnect, remove instances and subscribers
+
+2022-08-20 22:24:23,049 INFO Client connection 1661005458978_127.0.0.1_51636 disconnect, remove instances and subscribers
+
+2022-08-20 22:28:35,278 INFO Client connection 1661005715204_127.0.0.1_61998 connect
+
+2022-08-20 22:28:38,441 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=2}, 1661005715204_127.0.0.1_61998
+
+2022-08-20 22:28:41,956 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=3}, 1661005715204_127.0.0.1_61998
+
+2022-08-20 22:28:42,115 INFO Client connection 1661005722107_127.0.0.1_62006 connect
+
+2022-08-20 22:28:46,171 INFO Client connection 1661005722107_127.0.0.1_62006 disconnect, remove instances and subscribers
+
+2022-08-20 22:28:46,171 INFO Client connection 1661005715204_127.0.0.1_61998 disconnect, remove instances and subscribers
+
+2022-08-20 22:29:52,245 INFO Client connection 1661005792174_127.0.0.1_62129 connect
+
+2022-08-20 22:29:55,400 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=4}, 1661005792174_127.0.0.1_62129
+
+2022-08-20 22:29:59,072 INFO Client connection 1661005799066_127.0.0.1_62135 connect
+
+2022-08-20 22:30:03,135 INFO Client connection 1661005792174_127.0.0.1_62129 disconnect, remove instances and subscribers
+
+2022-08-20 22:30:03,142 INFO Client connection 1661005799066_127.0.0.1_62135 disconnect, remove instances and subscribers
+
+2022-08-20 22:38:15,676 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-08-20 22:38:15,676 WARN Using naming.distro config to replace core.distro config
+
+2022-08-20 22:38:15,748 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-08-20 22:38:15,749 INFO listen for service meta change
+
+2022-08-20 22:38:18,677 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-08-20 22:38:18,677 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-08-20 22:38:18,677 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-08-20 22:38:18,677 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-08-20 22:38:19,481 INFO Load instance extension handler []
+
+2022-08-20 22:38:39,999 INFO Client connection 1661006319881_127.0.0.1_56294 connect
+
+2022-08-20 22:38:40,160 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=0}, 1661006319881_127.0.0.1_56294
+
+2022-08-20 22:45:04,616 INFO Client connection 1661006704539_127.0.0.1_63161 connect
+
+2022-08-20 22:45:04,787 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=0}, 1661006704539_127.0.0.1_63161
+
+2022-08-20 22:46:52,918 INFO Client connection 1661006812859_127.0.0.1_63305 connect
+
+2022-08-20 22:46:53,086 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-member', ephemeral=true, revision=0}, 1661006812859_127.0.0.1_63305
+
+2022-08-20 22:47:09,278 INFO Client connection 1661006829209_127.0.0.1_63389 connect
+
+2022-08-20 22:47:09,445 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-order', ephemeral=true, revision=0}, 1661006829209_127.0.0.1_63389
+
+2022-08-20 22:47:32,640 INFO Client connection 1661006852574_127.0.0.1_63476 connect
+
+2022-08-20 22:47:32,794 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-ware', ephemeral=true, revision=0}, 1661006852574_127.0.0.1_63476
+

@@ -1,0 +1,48 @@
+2022-08-20 21:41:03,780 INFO initializing Raft sub-system
+
+2022-08-20 21:41:03,780 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-08-20 21:41:03,846 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-20 21:41:04,989 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-20 21:48:29,406 INFO initializing Raft sub-system
+
+2022-08-20 21:48:29,406 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-08-20 21:48:29,475 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-20 21:48:30,600 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-20 21:50:23,531 INFO initializing Raft sub-system
+
+2022-08-20 21:50:23,531 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-08-20 21:50:23,597 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-20 21:50:24,548 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-20 21:50:28,533 WARN start to close old raft protocol!!!
+
+2022-08-20 21:50:28,533 WARN stop old raft protocol task for notifier
+
+2022-08-20 21:50:28,533 WARN clean old cache datum for old raft
+
+2022-08-20 21:50:28,533 WARN start to move old raft protocol metadata
+
+2022-08-20 22:38:15,687 INFO initializing Raft sub-system
+
+2022-08-20 22:38:15,687 INFO Upgrade from 1X feature has closed, If you want open this feature, please set `nacos.core.support.upgrade.from.1x=true` in application.properties
+
+2022-08-20 22:38:15,750 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-08-20 22:38:16,686 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-08-20 22:38:20,698 WARN start to close old raft protocol!!!
+
+2022-08-20 22:38:20,698 WARN stop old raft protocol task for notifier
+
+2022-08-20 22:38:20,698 WARN clean old cache datum for old raft
+
+2022-08-20 22:38:20,698 WARN start to move old raft protocol metadata
+

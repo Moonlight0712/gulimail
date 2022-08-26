@@ -1,9 +1,16 @@
 spring:
+  application:
+    name: gulimail-product
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.165.129:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: root
+  cloud:
+    nacos:
+      discovery:
+       server-addr: 127.0.0.1:8848
+
 
 # MapperScan
 # sql映射文件位置
@@ -12,3 +19,6 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+server:
+  port: 8001
+

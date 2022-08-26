@@ -1,0 +1,36 @@
+2022-08-25 16:45:56,110 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=1}
+
+2022-08-25 16:45:56,656 INFO [PUSH-SUCC] 27ms, all delay time 609ms, SLA 547ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-25 17:10:45,470 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=3}
+
+2022-08-25 17:10:45,994 INFO [PUSH-SUCC] 24ms, all delay time 573ms, SLA 524ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-25 17:14:11,567 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=5}
+
+2022-08-25 17:14:12,045 INFO [PUSH-SUCC] 20ms, all delay time 536ms, SLA 478ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-25 17:34:18,254 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=7}
+
+2022-08-25 17:34:18,749 INFO [PUSH-SUCC] 20ms, all delay time 543ms, SLA 495ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-25 17:44:10,978 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=9}
+
+2022-08-25 17:44:11,544 INFO [PUSH-SUCC] 19ms, all delay time 623ms, SLA 566ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-25 18:08:37,949 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=11}
+
+2022-08-25 18:08:38,490 INFO [PUSH-SUCC] 26ms, all delay time 590ms, SLA 541ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-25 18:10:19,221 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=13}
+
+2022-08-25 18:10:19,726 INFO [PUSH-SUCC] 17ms, all delay time 556ms, SLA 505ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-25 20:11:31,793 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=15}
+
+2022-08-25 20:11:32,331 INFO [PUSH-SUCC] 21ms, all delay time 577ms, SLA 538ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-25 23:48:11,625 INFO [PUSH-SUCC] 22ms, all delay time 549ms for subscriber 192.168.165.1, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-08-25 23:48:15,977 INFO [PUSH-SUCC] 9ms, all delay time 530ms, SLA 530ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.165.1
+

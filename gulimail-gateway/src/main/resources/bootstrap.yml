@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: gulimail-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 254efeb1-363e-44b8-aea6-3324c51c25db
+        # bug记录：当时没有指定group和以下另外三个配置导致nacos配置文件一直不生效
+        # 注意断言的上面是uri而不是url，不然跑不通
+        group: DEFAULT_GROUP
+        file-extension: yaml
+        enabled: true
+        refresh-enabled: true
+
+# 远程配置中心的配置进行了覆盖
+server:
+  port: 88

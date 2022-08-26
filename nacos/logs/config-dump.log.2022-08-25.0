@@ -1,0 +1,26 @@
+2022-08-25 16:44:56,072 INFO [dump-task] add task. groupKey=bootstrapProperties-gulimail-coupon.properties+DEFAULT_GROUP, taskKey=bootstrapProperties-gulimail-coupon.properties+DEFAULT_GROUP++false+null
+
+2022-08-25 16:44:56,073 INFO [dump-task] add task. groupKey=bootstrapProperties-gulimail-coupon+DEFAULT_GROUP, taskKey=bootstrapProperties-gulimail-coupon+DEFAULT_GROUP++false+null
+
+2022-08-25 16:44:56,073 INFO [dump-task] add task. groupKey=gulimail-coupon+DEFAULT_GROUP, taskKey=gulimail-coupon+DEFAULT_GROUP++false+null
+
+2022-08-25 16:52:11,314 INFO [dump-task] add task. groupKey=gulimail-coupon.properties+DEFAULT_GROUP, taskKey=gulimail-coupon.properties+DEFAULT_GROUP++false+null
+
+2022-08-25 17:09:11,811 INFO [dump-task] add task. groupKey=gulimail-coupon.properties+DEFAULT_GROUP+9ae3f6bf-0a32-4179-8445-be45f5f49c41, taskKey=gulimail-coupon.properties+DEFAULT_GROUP+9ae3f6bf-0a32-4179-8445-be45f5f49c41+false+null
+
+2022-08-25 17:14:59,756 INFO [dump-task] add task. groupKey=gulimail-coupon.properties+DEFAULT_GROUP+9ae3f6bf-0a32-4179-8445-be45f5f49c41, taskKey=gulimail-coupon.properties+DEFAULT_GROUP+9ae3f6bf-0a32-4179-8445-be45f5f49c41+false+null
+
+2022-08-25 17:33:06,024 INFO [dump-task] add task. groupKey=gulimail-coupon.properties+DEFAULT_GROUP+fa20db66-57b1-4adb-9abe-5d4bdfc9621d, taskKey=gulimail-coupon.properties+DEFAULT_GROUP+fa20db66-57b1-4adb-9abe-5d4bdfc9621d+false+null
+
+2022-08-25 17:33:46,091 INFO [dump-task] add task. groupKey=gulimail-coupon.properties+DEFAULT_GROUP+fa20db66-57b1-4adb-9abe-5d4bdfc9621d, taskKey=gulimail-coupon.properties+DEFAULT_GROUP+fa20db66-57b1-4adb-9abe-5d4bdfc9621d+false+null
+
+2022-08-25 17:43:13,107 INFO [dump-task] add task. groupKey=gulimail-coupon.properties+双十一专用+fa20db66-57b1-4adb-9abe-5d4bdfc9621d, taskKey=gulimail-coupon.properties+双十一专用+fa20db66-57b1-4adb-9abe-5d4bdfc9621d+false+null
+
+2022-08-25 17:58:50,772 INFO [dump-task] add task. groupKey=datasource.yml+dev+fa20db66-57b1-4adb-9abe-5d4bdfc9621d, taskKey=datasource.yml+dev+fa20db66-57b1-4adb-9abe-5d4bdfc9621d+false+null
+
+2022-08-25 18:00:11,302 INFO [dump-task] add task. groupKey=mybatis.yml+dev+fa20db66-57b1-4adb-9abe-5d4bdfc9621d, taskKey=mybatis.yml+dev+fa20db66-57b1-4adb-9abe-5d4bdfc9621d+false+null
+
+2022-08-25 18:01:36,254 INFO [dump-task] add task. groupKey=other.yml+dev+fa20db66-57b1-4adb-9abe-5d4bdfc9621d, taskKey=other.yml+dev+fa20db66-57b1-4adb-9abe-5d4bdfc9621d+false+null
+
+2022-08-25 23:40:18,916 INFO [dump-task] add task. groupKey=gulimail-gateway.yml+DEFAULT_GROUP+254efeb1-363e-44b8-aea6-3324c51c25db, taskKey=gulimail-gateway.yml+DEFAULT_GROUP+254efeb1-363e-44b8-aea6-3324c51c25db+false+null
+

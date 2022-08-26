@@ -1,0 +1,142 @@
+2022-08-20 22:20:06,693 INFO [PUSH-SUCC] 852ms, all delay time 1383ms for subscriber 192.168.165.1, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2022-08-20 22:24:19,449 ERROR [PUSH-FAIL] 5ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=192.168.165.1
+
+2022-08-20 22:24:19,450 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-08-20 22:24:20,532 ERROR [PUSH-FAIL] 1ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=192.168.165.1
+
+2022-08-20 22:24:20,532 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-08-20 22:24:21,622 ERROR [PUSH-FAIL] 1ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=192.168.165.1
+
+2022-08-20 22:24:21,622 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-08-20 22:24:22,711 ERROR [PUSH-FAIL] 0ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=2}, reason=Stream is already completed, no further calls are allowed, target=192.168.165.1
+
+2022-08-20 22:24:22,712 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-08-20 22:28:42,497 ERROR [PUSH-FAIL] 1ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=4}, reason=Stream is already completed, no further calls are allowed, target=192.168.165.1
+
+2022-08-20 22:28:42,497 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-08-20 22:28:43,580 ERROR [PUSH-FAIL] 0ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=4}, reason=Stream is already completed, no further calls are allowed, target=192.168.165.1
+
+2022-08-20 22:28:43,581 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-08-20 22:28:44,669 ERROR [PUSH-FAIL] 0ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=4}, reason=Stream is already completed, no further calls are allowed, target=192.168.165.1
+
+2022-08-20 22:28:44,669 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-08-20 22:28:45,758 ERROR [PUSH-FAIL] 0ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=4}, reason=Stream is already completed, no further calls are allowed, target=192.168.165.1
+
+2022-08-20 22:28:45,759 ERROR Reason detail: 
+
+java.lang.IllegalStateException: Stream is already completed, no further calls are allowed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onNext(ServerCalls.java:346)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:62)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:94)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:117)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:68)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:116)
+2022-08-20 22:38:40,164 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=1}
+
+2022-08-20 22:38:41,600 INFO [PUSH-SUCC] 979ms, all delay time 1492ms, SLA 1436ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-product', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-20 22:45:04,787 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=1}
+
+2022-08-20 22:45:05,265 INFO [PUSH-SUCC] 19ms, all delay time 523ms, SLA 478ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-20 22:46:53,087 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-member', ephemeral=true, revision=1}
+
+2022-08-20 22:46:53,583 INFO [PUSH-SUCC] 24ms, all delay time 538ms, SLA 497ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-member', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-20 22:47:09,445 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-order', ephemeral=true, revision=1}
+
+2022-08-20 22:47:09,941 INFO [PUSH-SUCC] 21ms, all delay time 541ms, SLA 496ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-order', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.165.1
+
+2022-08-20 22:47:32,794 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-ware', ephemeral=true, revision=1}
+
+2022-08-20 22:47:33,353 INFO [PUSH-SUCC] 18ms, all delay time 598ms, SLA 559ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-ware', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.165.1
+

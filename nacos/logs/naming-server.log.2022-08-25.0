@@ -1,0 +1,136 @@
+2022-08-25 03:04:13,146 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 03:04:15,171 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 03:04:17,182 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 03:04:19,185 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 03:04:21,187 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 03:04:23,202 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 12:05:39,967 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 12:05:42,023 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 12:05:44,260 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 12:05:46,556 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='127.0.0.1', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 16:45:55,920 INFO Client connection 1661417155911_127.0.0.1_54471 connect
+
+2022-08-25 16:45:56,109 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=0}, 1661417155911_127.0.0.1_54471
+
+2022-08-25 17:10:22,722 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=1}, 1661417155911_127.0.0.1_54471
+
+2022-08-25 17:10:23,093 INFO Client connection 1661417155911_127.0.0.1_54471 disconnect, remove instances and subscribers
+
+2022-08-25 17:10:23,611 INFO Client connection 1661417146433_127.0.0.1_54438 disconnect, remove instances and subscribers
+
+2022-08-25 17:10:45,302 INFO Client connection 1661418645296_127.0.0.1_54926 connect
+
+2022-08-25 17:10:45,470 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=2}, 1661418645296_127.0.0.1_54926
+
+2022-08-25 17:13:49,114 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=3}, 1661418645296_127.0.0.1_54926
+
+2022-08-25 17:13:49,452 INFO Client connection 1661418645296_127.0.0.1_54926 disconnect, remove instances and subscribers
+
+2022-08-25 17:13:49,952 INFO Client connection 1661418637034_127.0.0.1_54924 disconnect, remove instances and subscribers
+
+2022-08-25 17:14:11,394 INFO Client connection 1661418851386_127.0.0.1_55163 connect
+
+2022-08-25 17:14:11,567 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=4}, 1661418851386_127.0.0.1_55163
+
+2022-08-25 17:33:56,917 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=5}, 1661418851386_127.0.0.1_55163
+
+2022-08-25 17:33:57,259 INFO Client connection 1661418851386_127.0.0.1_55163 disconnect, remove instances and subscribers
+
+2022-08-25 17:33:57,790 INFO Client connection 1661418843059_127.0.0.1_55159 disconnect, remove instances and subscribers
+
+2022-08-25 17:34:18,096 INFO Client connection 1661420058083_127.0.0.1_62935 connect
+
+2022-08-25 17:34:18,254 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=6}, 1661420058083_127.0.0.1_62935
+
+2022-08-25 17:43:47,276 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=7}, 1661420058083_127.0.0.1_62935
+
+2022-08-25 17:43:47,610 INFO Client connection 1661420058083_127.0.0.1_62935 disconnect, remove instances and subscribers
+
+2022-08-25 17:43:48,107 INFO Client connection 1661420050322_127.0.0.1_62928 disconnect, remove instances and subscribers
+
+2022-08-25 17:44:10,803 INFO Client connection 1661420650798_127.0.0.1_64045 connect
+
+2022-08-25 17:44:10,978 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=8}, 1661420650798_127.0.0.1_64045
+
+2022-08-25 18:08:16,151 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=9}, 1661420650798_127.0.0.1_64045
+
+2022-08-25 18:08:16,534 INFO Client connection 1661420650798_127.0.0.1_64045 disconnect, remove instances and subscribers
+
+2022-08-25 18:08:17,066 INFO Client connection 1661420641694_127.0.0.1_64037 disconnect, remove instances and subscribers
+
+2022-08-25 18:08:37,785 INFO Client connection 1661422117779_127.0.0.1_58331 connect
+
+2022-08-25 18:08:37,949 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=10}, 1661422117779_127.0.0.1_58331
+
+2022-08-25 18:09:57,797 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=11}, 1661422117779_127.0.0.1_58331
+
+2022-08-25 18:09:58,125 INFO Client connection 1661422117779_127.0.0.1_58331 disconnect, remove instances and subscribers
+
+2022-08-25 18:09:58,626 INFO Client connection 1661422109903_127.0.0.1_58324 disconnect, remove instances and subscribers
+
+2022-08-25 18:10:19,061 INFO Client connection 1661422219056_127.0.0.1_58448 connect
+
+2022-08-25 18:10:19,221 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=12}, 1661422219056_127.0.0.1_58448
+
+2022-08-25 20:11:12,452 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=13}, 1661422219056_127.0.0.1_58448
+
+2022-08-25 20:11:12,799 INFO Client connection 1661422219056_127.0.0.1_58448 disconnect, remove instances and subscribers
+
+2022-08-25 20:11:13,313 INFO Client connection 1661422211263_127.0.0.1_58446 disconnect, remove instances and subscribers
+
+2022-08-25 20:11:31,637 INFO Client connection 1661429491633_127.0.0.1_64000 connect
+
+2022-08-25 20:11:31,793 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=14}, 1661429491633_127.0.0.1_64000
+
+2022-08-25 20:13:41,338 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:11,835 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:13,848 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:15,853 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:17,866 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:19,875 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:21,877 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:23,884 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:25,894 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:27,906 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:29,912 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:31,912 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:33,925 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:35,939 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 20:14:37,953 ERROR local ip is not in serverlist, ip: 192.168.1.30:8848, serverlist: [Member{ip='192.168.1.30', port=8848, state=UP, extendInfo={lastRefreshTime=1661017327259, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@4577646b, raftPort=7848, readyToUpgrade=true, version=2.1.1}}]
+
+2022-08-25 22:59:57,420 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-coupon', ephemeral=true, revision=15}, 1661429491633_127.0.0.1_64000
+
+2022-08-25 22:59:57,825 INFO Client connection 1661429491633_127.0.0.1_64000 disconnect, remove instances and subscribers
+
+2022-08-25 22:59:58,351 INFO Client connection 1661429484757_127.0.0.1_63994 disconnect, remove instances and subscribers
+
+2022-08-25 23:01:40,702 WARN namespace : public, [DEFAULT_GROUP@@gulimail-coupon] services are automatically cleaned
+
+2022-08-25 23:48:10,958 INFO Client connection 1661442490946_127.0.0.1_55574 connect
+
+2022-08-25 23:48:15,446 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimail-gateway', ephemeral=true, revision=0}, 1661442490946_127.0.0.1_55574
+
